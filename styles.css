@@ -1,0 +1,165 @@
+body {
+    background-color: #F2F9FE;
+}
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #111729;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+.about {
+    text-decoration: none;
+    color: #2A4DD0;
+}
+.product {
+    text-decoration: none;
+    color: #223344;
+}
+.ressource {
+    text-decoration: none;
+    color: #223344;
+}
+.contact {
+    text-decoration: none;
+    color: #223344;
+}
+.about::after {
+    content: '';
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: -8px;
+    left: 8.9%;
+    width: 19%;
+    height: 3px;
+    background-color: #2A4DD0;
+    border-radius: 40px;  
+}
+.toggle-mode {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 6%;
+    left: 85%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.cool {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #111729;
+    font-weight: 500;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+}
+.title {
+    font-family: "Rubik", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 450px;
+    color: #394150;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.description {
+    font-family: "Rubik", bold;
+    font-size: 18px;
+    color: #394150;
+    text-align: left;
+    max-width: 600px;
+    position: absolute;
+    top: 49%;
+    left: 5%;
+}
+.design {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+}
+.get {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+.btn-start {
+    background-color: #2A4DD0;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 13px 40px;
+    font-family: "rubik", sans-serif;
+    font-weight: 600;
+}
+.btn-demo {
+    font-family: "rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: #2A4DD0;
+    margin-left: 20px;
+}
+.btn-demo::after {
+    content: '';
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 95%;
+    height: 2.6px;
+    background-color: #2A4DD0;
+    border-radius: 40px;
+}
+.icon-l {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 26.5%;
+    left: 5%;
+    width: 24px;
+    height: 24px;
+}
+.icon-r {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 26.5%;
+    left: 19%;
+    width: 24px;
+    height: 24px;
+}
+.text-l {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    bottom: 28%;
+    left: 7%;
+
+}
+.text-r {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    bottom: 28%;
+    left: 21%;
+}
